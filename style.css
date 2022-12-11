@@ -1,0 +1,18 @@
+.ham-content {
+  z-index: 1;
+}
+
+.products {
+  overflow: hidden;
+}
+.products img {
+  margin-top: -70px;
+  overflow: hidden;
+  margin-bottom: -85px;
+  margin-left: 1rem;
+}
+
+.btns {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
