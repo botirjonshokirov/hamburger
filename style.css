@@ -1,3 +1,6 @@
+.ham {
+  width: 100%;
+}
 .ham-content {
   z-index: 1;
 }

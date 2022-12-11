@@ -21,7 +21,7 @@
   <body>
     <div class="container d-flex my-5">
       <div class="burger m-auto w-50">
-        <div class="ham">
+        <div class="row">
           <div class="ham-content">
             <img src="./burger-layers/top-bread.svg" alt="" />
           </div>
@@ -38,34 +38,38 @@
           </div>
         </div>
       </div>
-      <form id="form w-50">
-        <div class="prices">
-          <h4 class="fs-3">Cheese - 2$</h4>
-          <h4 class="fs-3">Meat - 5$</h4>
-          <h4 class="fs-3">Onion - 1$</h4>
-          <h4 class="fs-3">Salad - 1$</h4>
-          <h4 class="fs-3">Tomato - 2$</h4>
-          <h4 class="fs-3">Pickle - 3$</h4>
-          <h4 class="fs-3">Bread - 2$</h4>
-        </div>
-        <div class="btns d-flex gap-3 my-5">
-          <!-- flex-column-reverse -->
-          <button id="btn-cheese" class="btn text-bg-primary fs-5">
-            Cheese</button
-          ><button id="btn-meat" class="btn text-bg-primary fs-5">Meat</button
-          ><button id="btn-onion" class="btn text-bg-primary fs-5">Onion</button
-          ><button id="btn-salad" class="btn text-bg-primary fs-5">Salad</button
-          ><button id="btn-tomato" class="btn text-bg-primary fs-5">
-            Tomato</button
-          ><button id="btn-pickle" class="btn text-bg-primary fs-5">
-            Pickle
-          </button>
-        </div>
+      <div class="row">
+        <form id="form w-50">
+          <div class="prices">
+            <h4 class="fs-3">Cheese - 2$</h4>
+            <h4 class="fs-3">Meat - 5$</h4>
+            <h4 class="fs-3">Onion - 1$</h4>
+            <h4 class="fs-3">Salad - 1$</h4>
+            <h4 class="fs-3">Tomato - 2$</h4>
+            <h4 class="fs-3">Pickle - 3$</h4>
+            <h4 class="fs-3">Bread - 2$</h4>
+          </div>
+          <div class="btns d-flex gap-3 my-5">
+            <!-- flex-column-reverse -->
+            <button id="btn-cheese" class="btn text-bg-primary fs-5">
+              Cheese</button
+            ><button id="btn-meat" class="btn text-bg-primary fs-5">Meat</button
+            ><button id="btn-onion" class="btn text-bg-primary fs-5">
+              Onion</button
+            ><button id="btn-salad" class="btn text-bg-primary fs-5">
+              Salad</button
+            ><button id="btn-tomato" class="btn text-bg-primary fs-5">
+              Tomato</button
+            ><button id="btn-pickle" class="btn text-bg-primary fs-5">
+              Pickle
+            </button>
+          </div>
 
-        <div class="total my-3">
-          <h2 class="final-price" id="final-price">Total : $4</h2>
-        </div>
-      </form>
+          <div class="total my-3">
+            <h2 class="final-price" id="final-price">Total : $4</h2>
+          </div>
+        </form>
+      </div>
     </div>
 
     <script src="./index.js"></script>
